@@ -9,5 +9,4 @@
     :merge
     [(args)
      (source/from-system-props)
-     (source/from-env)])
-  :database-url "jdbc:mysql://localhost/videocodec?user=root&password=tip1mysql")
+     (source/from-env)]))
