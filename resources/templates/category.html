@@ -1,0 +1,7 @@
+{% extends "base2.html" %}
+{% block content %}
+<p>{{cat-link}}</p>
+<p>{{category.id}}</p>
+<p> - {{category.title}}</p>
+<p> - {{ category.description|markdown}} </p>
+{% endblock %}
